@@ -28,7 +28,7 @@ root = Tk()
 root.geometry("800x450+350+150")
 root.title("USD to INR")
 root.iconbitmap(
-    r"D:\Saarthak\Programming\Python\Desktop Apps\Unit Converter\favicon.ico")
+    r"favicon.ico")
 root.config(bg="linen")
 
 header = Label(root, text="INR to USD Converter", font=(
@@ -44,7 +44,7 @@ input = Entry(root, width=25, background="LightPink1",
 input.pack()
 
 image = Image.open(
-    r"D:\Saarthak\Programming\Python\Desktop Apps\Unit Converter\btn.png")
+    r"btn.png")
 resize_image = image.resize((150, 150))
 img = ImageTk.PhotoImage(resize_image)
 
